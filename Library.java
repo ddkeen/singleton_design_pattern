@@ -23,11 +23,11 @@ public class Library {
      * @return  library, the old library if there was already or a new one
      */
     public static Library getInstance() {
-	    if (library == null) {
-		    System.out.println("Creatng our Library. Time to begin reading.");
-		    library = new Library();
-		}
-	    return library;
+        if (library == null) {
+            System.out.println("Creatng our Library. Time to begin reading.");
+            library = new Library();
+        }
+        return library;
     }
 
     /**
