@@ -1,3 +1,7 @@
+/**
+ * Driver for the Library class to store books and its number of copies in a HashMap
+ * @author portiaportia
+ */
 public class LibraryDriver {
 
 	public void runLibrary() {
